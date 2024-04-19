@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)),
+    url(./images/image\ 1.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+}
+    
+nav img{
+    width: 111px;
+  
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    font-family: "Irish Grover", system-ui;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.block1{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.block1 h1{
+    font-size: 50px;
+    color: rgb(61, 224, 176); 
+    margin-bottom: 40px;
+}
+.block1 p{
+    font-size: 18px;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    border: 1px solid  white ;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 35px;
+}
+.btn:hover{
+    background-color: rgb(61, 224, 176);
+    transition: 0.7s;
+}
+.block2{
+    width: 70%;
+    margin: 50px auto;
+
+}
+iframe{
+    width: 100%;
+    height: 450px;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: "Madimi One", sans-serif;
+    color: rgb(114, 73, 19);
+    text-align: center;
+    margin-bottom: 30px;
+}
+p{
+    text-align: center;
+    font-size: 24px;
+}
+footer{
+    background-color: #250F02;
+    text-align: center;
+    padding: 35px;
+}
+footer h3{
+    font-family: "Madimi One", sans-serif;
+    color: white;
+    padding-bottom: 25px;
+    font-size: 28px;
+}
+footer h4{
+    font-family: "Madimi One", sans-serif;
+    color: white;
+    padding-top: 25px;
+    font-size: 24px;
+}
+.icons i{
+    font-size: 50px;
+    color: white;
+    margin: 0 25px;
+    cursor: pointer;
+}
+.sub-header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)),
+    url(./images/world\ kitchen.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+.sub-header h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 150px;
+    font-family: "Madimi One", sans-serif;
+}
+.worldkitchen{
+    width: 80%;
+    margin: 100px auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.label{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.label:hover{
+    background-color: rgba(114, 73, 19, 0.836);
+    transition: 0.5s;
+}
+.label h3{
+    width: 100%;
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.label:hover h3{
+    bottom: 50%;
+    transition: 0.5s;
+}
+.worldkitchen-col{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 44px;
+}
+.worldkitchen-col img{
+    width: 100%;
+    display: block;
+}
+.history1{
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+.history1-col{
+    flex-basis: 30%;
+    margin-bottom: 30px;
+}
+.history1-col img{
+    width: 100%;
+    border-radius: 16px;
+}
+.history1-col p{
+    font-size: 16px;
+}
+.history1-col h3{
+    font-size: 24px;
+    color: red;
+    margin: 16px 0 8px 0;
+}
+.history1-col img:hover{
+    transform: scale(1.2);
+}
+.history2{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.history2 h2{
+    color: #250F02;
+}
+.history2-col{
+    background-color: #250F02;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    flex-basis: 35%;
+    margin-bottom: 30px;
+}
+.history2-col h3{
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: white;
+}
+.history2-col p{
+    font-size: 16px;
+    color: white;
+}
+.history2-col:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.365);
+}
+.blog{
+    width: 80%;
+    margin: 100px auto;
+    
+}
+.blog-left{
+    flex-basis: 66%;
+}
+.blog-left img{
+    width: 100%;
+}
+.blog-left h3{
+    font-size: 40px;
+    font-family: "Irish Grover", system-ui;
+    margin: 30px 0;
+}
+.blog-left p{
+    padding: 0;
+    color: rgb(151, 151, 151);
+    text-align: left;
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: -10px;
+}
+.coment-box{
+    border: 1px solid rgb(151, 151, 151);
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.coment-box h3{
+    font-size: 30px;
+    margin: 15px 0;
+}
+.coment-box input, .coment-box textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: none;
+    background-color: rgb(219, 219, 219);
+    box-sizing: border-box;
+    outline: none;
+}
+.btn{
+    color: black;
+    background-color: rgb(151, 151, 151);
+}
+.blog-right{
+    flex-basis: 30%;
+}
+.blog-right h3{
+    background-color: #ec2323;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.blog-right div{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(72, 72, 72);
+    padding: 5px 0;
+    cursor: pointer;
+}
+.blog-right div:hover{
+    background-color: #250F02;
+    color: white;
+}
+.location{
+    width: 80%;
+    margin: 100px auto;
+
+}
+.location iframe{
+    width: 100%;
+}
+.contacts{
+    width: 80%;
+    margin: auto;
+}
+.contacts-col{
+    flex-basis: 47%;
+}
+.contacts-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+
+}
+.contacts-col div i{
+    font-size: 30px;
+    color: #c2ec29;
+    margin-right: 45px;
+}
+.contacts-col div h3{
+    font-size: 20px;
+    color: rgb(72, 72, 72);
+    margin-bottom: 5px;
+}
+.contacts-col div p{
+    font-size: 16px;
+    text-align: left;
+}
+.contacts-col .coment-box{
+    margin: 0;
+    margin-bottom: 50px;
+}
+@media(max-width:768px){
+    .row{
+        flex-direction: column;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: fixed;
+        background-color: #c42a2a;
+        height: 100vh;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        transition: 1s;
+        z-index: 100;
+    }
+    nav .fa-bars, nav .fa-xmark{
+        display: block;
+        color: white;
+        font-size: 22px;
+        margin: 10px;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    .icons a i{
+        font-size: 28px;
+    }
+    footer h3, footer h4{
+        font-size: 20px;
+    }
+    .worldkitchen-col{
+        width: 75%;
+        margin: 30px auto;
+    }
+    .sub-header h1, .block1 h1{
+        font-size: 28px;
+    }
+    
+}
+
